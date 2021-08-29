@@ -1,0 +1,79 @@
+[
+  {
+    "site_start_url": "https://prom.ua",
+    "timeout_max_val":10,
+    "large_timeout":200,
+    "count_to_large_timeout":100,
+    "final_item_url_class": [
+      "item_url_class = productTile__tileLink--204An",
+      "data-qaid=\"product_link\""
+    ],
+    "href_text_list": [
+      "Показать все категории",
+      "",
+      "",
+      ""
+    ],
+    "url_class_list": [
+      "ek-link ek-link_color_blue-500 ek-link_weight_bold ek-link_size_h6 ek-link_blackhole_full-hover",
+      "ek-link ek-link_blackhole_full-hover",
+      "ek-link ek-link_blackhole_full-hover"
+    ],
+    "price_value_unique_part": "цена*.([0-9]*).*",
+    "find_children_list": [
+      [],
+      [
+        {
+          "span": "ek-text ek-text_wrap_break ek-text_align_left ek-text_align_center@medium"
+        }
+      ],
+      [
+        {
+          "span": "ek-text ek-text_wrap_break ek-text_align_left ek-text_align_center@medium"
+        }
+      ],
+      []
+    ],
+    "forbidden_sub_utls": [
+      "/sign-in",
+      "/label",
+      "/apps",
+      "/safe_shopping",
+      "/join-now",
+      "/cms",
+      "/user",
+      "/prom.ua",
+      "/new",
+      "/a>",
+      "a>",
+      "/",
+      "",
+      "/consumer-goods",
+      "/prom-oplata",
+      "Kategorii",
+      "/add_item_immediately",
+      "/for-you",
+      "/ru",
+      "/join-customer",
+      "/aktsii-skidki",
+      "/Season-feed",
+      "/how_to_buy",
+      "/customer_prompay",
+      "/how_to_leave_review",
+      "/check_is_site_on_portal",
+      "/how_to_order",
+      "/terms-of-use",
+      "/privacy-policy",
+      "/about_us",
+      "/media",
+      "/vacancies",
+      "/contact_us",
+      "/intellectual_protection",
+      "/intellectual_protection",
+      "/site_partners"
+    ],
+    "forbidden_href_class": [
+      "productConversion__dynamicButton--1R1wZ"
+    ]
+  }
+]

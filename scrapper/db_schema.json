@@ -1,0 +1,76 @@
+{
+  "db_driver": "sqlite3",
+  "db_file_name": "products.db",
+  "db_file_path_windows": "databases\\products.db",
+  "db_file_path_linux": "databases/products.db",
+  "user": "",
+  "password": "",
+  "tables": [
+    {
+      "table_name": "items",
+      "attribs": [
+        {
+          "item_id": "INTEGER"
+        },
+        {
+          "item_hash": "TEXT"
+        },
+        {
+          "item_raw_url": "TEXT"
+        },
+        {
+          "last_update_date": "TEXT"
+        }
+      ],
+      "keys": [
+        {
+          "PK": "item_id"
+        },
+        {
+          "FK": [
+            {
+              "key_attrib": ""
+            },
+            {
+              "main_table": "",
+              "main_table_attrib": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "table_name": "prices",
+      "attribs": [
+        {
+          "price_chain_id": "INTEGER"
+        },
+        {
+          "item_hash": "TEXT"
+        },
+        {
+          "price": "TEXT"
+        },
+        {
+          "actual_at": "TEXT"
+        }
+      ],
+      "keys": [
+        {
+          "PK": "price_chain_id"
+        },
+        {
+          "FK": [
+            {
+              "key_attrib": "item_hash"
+            },
+            {
+              "main_table": "items",
+              "main_table_attrib": "item_id"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
